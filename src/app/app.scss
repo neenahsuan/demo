@@ -1,0 +1,160 @@
+/*bntCss要對應html中的class名稱*/
+.bntCss {
+  /*font-size是修改文字大小*/
+  font-size: 30px;
+  /*color是修改文字顏色*/
+  color: red;
+}
+
+// 0625練習-1
+
+
+.img1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 24px;
+
+}
+
+.img2 {
+  width: 300px;
+  height: 200px;
+
+}
+
+.divBox {
+
+  width: 524px;
+  height: 200px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+  border: 1px solid black;
+  background-color: rgb(186, 186, 186);
+
+}
+
+
+
+.inputA {
+  height: 20px;
+  width: 381px;
+  margin-right: 18px;
+}
+
+.buttonA {
+  width: 120px;
+}
+
+
+
+// 0625練習-2
+
+.outBox {
+  background-color: blue;
+  padding: 30px;
+  width: 500px;
+  height: 400px;
+
+
+}
+
+.innerBox {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.h1Css {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inputAccount {
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+.inputPassword {
+  border-radius: 10px;
+  margin: 10px;
+
+
+}
+
+
+.buttonLogin {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+
+
+
+.Flex1 {
+  background-color: green;
+  color: white;
+}
+
+.Flex2 {
+  background-color: rgb(13, 0, 255);
+  color: white;
+}
+
+.Flex3 {
+  background-color: rgb(188, 8, 134);
+  color: white;
+
+}
+
+.Flex4 {
+  background-color: yellow;
+  color: white;
+
+}
+
+.Flex5 {
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 80px;
+}
+
+
+.top {
+  width: 300px;
+  height: 300px;
+  background-color: #474a47;
+  position: relative;
+
+}
+
+
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: #f7b977;
+  position: absolute;
+  right: 0px;
+
+}
+
+.content2 {
+  width: 100px;
+  height: 100px;
+  background-color: #028760;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+.MouseIcon {
+  &hover {
+    color: blue
+  }
+}
